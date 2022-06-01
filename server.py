@@ -11,7 +11,7 @@ from mqtt_communicator.mqtt_communicator import MQTTCommunicator
 from pyngrok import ngrok # Ref: https://pyngrok.readthedocs.io/en/latest/index.html#open-a-tunnel
 import json
 
-TUNNEL, PORT = "tcp", [PORT]
+TUNNEL, PORT = "tcp", "YOUR_SSH_PORT"
 NGROK_AUTH_TOKEN = "PUT_YOUR_AUTH_TOKEN_HERE" # Make a free account and get this
 
 def main():
